@@ -45,3 +45,14 @@ Will upload some project code and text content for the next 100 days in this rep
 * If your model is too confused between certain similar data, then your model is probably overly generalised. This means it requires a little more complexity brought into it  - Try adding more data.
 * If your model is too complex, it tends to overfit everything and confidently can give wrong prediction - In this case, generalize your model, make it simpler.
 
+## Day2 - 13/11/2018
+### Understand a simple machine learning project 
+So I came a across a simple machine learning project, just a couple of line of code in Python, by using scikit-learn ML library.
+This code is actually from [this blog.](https://towardsdatascience.com/simple-machine-learning-model-in-python-in-5-lines-of-code-fe03d72e78c6)
+   * Here the author creates a model and teaches it to predict the output of a dependent variable using 3 independent variables. 
+   * He generates the inputs by iterating randomly up to a limit and assigning an output using some equation. 
+   * He uses Linear Regression to teach the model. As far as I understand LR, it is used to predict an output(dependent variable), given an input (independent variable) where the output doesn't have a decided relationship with the input, i.e. its relationship is probabilistic/statistical in nature. Examples for a decided relationship between input and output can be E=mc^2, V=IR, x+my=c, and so on.
+   * This is intuitively true, because why would you need to train any model, if you knew the output equation i.e. by extension, its relationship with the input? It'd be like teaching a model to tell you the output of y = a + b, given a, b. 
+   * Although, this could be useful when you don't know the relationship of the inputs & outputs in your existing data.
+   * Like, say you lots of mathematical series, where there are inputs and 1 output & you don't know what equation to fit, so you get the same output given these inputs. Then LR can be conversely used to find the statistical relationship between both.
+
