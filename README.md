@@ -54,5 +54,17 @@ This code is actually from [this blog.](https://towardsdatascience.com/simple-ma
    * He uses Linear Regression to teach the model. As far as I understand LR, it is used to predict an output(dependent variable), given an input (independent variable) where the output doesn't have a decided relationship with the input, i.e. its relationship is probabilistic/statistical in nature. Examples for a decided relationship between input and output can be E=mc^2, V=IR, x+my=c, and so on.
    * This is intuitively true, because why would you need to train any model, if you knew the output equation i.e. by extension, its relationship with the input? It'd be like teaching a model to tell you the output of y = a + b, given a, b. 
    * Although, this could be useful when you don't know the relationship of the inputs & outputs in your existing data.
-   * Like, say you lots of mathematical series, where there are inputs and 1 output & you don't know what equation to fit, so you get the same output given these inputs. Then LR can be conversely used to find the statistical relationship between both.
+   * Like, say you have lots of mathematical series, where there are inputs and 1 output & you don't know what equation to fit, so you get the same output given these inputs. Then LR can be conversely used to find the statistical relationship between both.
+___
+
+## Day3 - 14/11/2018
+### Making a simple ML project, to predict weight of a student, given his/her height, using Linear Regression
+Today, I'll be using a .txt file with the data of just 10 students' heights and weights, & train a model on that data, then check what would be the output weight, if I pass a height. 
+Linear regression is a simple best line fitting technique, which will use the least mean square error reduction, to come to the best line from an infinite number of possible lines to fit the data so that there's minimum difference between the actual and predicted output.
+The code is [here](https://github.com/KhyatiMehta3/MachineLearning/blob/master/LinearRegression_Simple.py)
+The code is under progress and currently gets the input data from the text file [here](https://github.com/KhyatiMehta3/MachineLearning/blob/master/height_weight_lineaRegression_data.txt)
+
+
+
+   
 
